@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AurumDrive</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Josefin+Sans:wght@515&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+      * {
+        font-family: "Josefin Sans", sans-serif;
+      }
+      .logo {
+        float: left;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 25px;
+        margin-left: 25px;
+        margin-top: 0px;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        padding: 10px;
+        margin-left: 17%;
+        height: 70px;
+        margin-top: 10px;
+        max-height: 70px;
+        background: rgba(95, 95, 95, 0.25);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px);
+        border-radius: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        display: flex;
+        align-items: center;
+      }
+
+      nav ul li {
+        margin-right: 70px;
+        list-style-type: none;
+      }
+
+      nav ul li a {
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        border-bottom: 5px solid rgb(0, 0, 0);
+        height: 70px;
+        transition: 0.2s;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 30px 0;
+        color: #333;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, fr);
+        gap: 50px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 50px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 20px;
+      }
+
+      .card img {
+        width: 1000px;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 10px;
+      }
+
+      .card h3 {
+        font-size: 25px;
+        margin: 15px 0 10px;
+        color: #333;
+      }
+
+      .card p {
+        color: #555;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+      .btn {
+        font-size: 20px;
+        background-color: #000000;
+        color: white;
+        border: 1px solid #ffffff;
+        padding: 15px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="index.html"
+      ><div class="logo">
+        <h3>
+          <span style="color: rgb(90, 90, 90)">Aurum</span
+          ><span style="color: rgb(255, 43, 43)">Drive</span>
+        </h3>
+      </div></a
+    >
+
+    <nav>
+      <ul>
+        <li>
+          <a href="" style="border-bottom: 5px solid black">Lamborghini</a>
+        </li>
+        <li><a href="bmw.html">BMW</a></li>
+        <li><a href="ferarri.html">Ferrari</a></li>
+        <li><a href="porsche.html">PORCHE</a></li>
+      </ul>
+    </nav>
+
+    <h1 style="font-size: 60px; margin-top: 50px">EXPLORE VEHICLES</h1>
+
+    <img
+      src="images/lamborghini.svg"
+      width="300px"
+      style="margin: auto; display: block; margin-top: 40px"
+    />
+
+    <div class="container">
+      <div class="card">
+        <img src="images/familyChooser-Revuelto_0.webp" alt="Product 1" />
+        <h3>REVUELTO</h3>
+        <p>$9,999,999.99</p>
+        <button class="btn">PURCHASE</button>
+      </div>
+
+      <div class="card">
+        <img src="images/familyChooser-Huracan Sterrato.webp" alt="Product 1" />
+        <h3>HURACAN</h3>
+        <p>$9,999,999.99</p>
+        <button class="btn">PURCHASE</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Temerario_0.webp" alt="Product 1" />
+        <h3>TEMERARIO</h3>
+        <p>$9,999,999.99</p>
+        <button class="btn">PURCHASE</button>
+      </div>
+
+      <div class="card">
+        <img src="images/Urus.webp" alt="Product 1" />
+        <h3>URUS</h3>
+        <p>$9,999,999.99</p>
+        <button class="btn">PURCHASE</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Josefin+Sans:wght@515&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/Sleek\ Black\ Sports\ Car\ on\ Highway3-Picsart-AiImageEnhancer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#sec1 {
+  height: 800px;
+}
+
+.logo {
+  float: left;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  padding: 10px 0;
+  margin-left: 25%;
+  height: 70px;
+  margin-top: 10px;
+  max-height: 70px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border-bottom: 5px solid rgb(255, 255, 255);
+  height: 70px;
+  transition: 0.2s;
+}
+
+.content {
+  margin-top: 200px;
+  margin-left: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: rgb(255, 50, 50);
+  color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(255, 50, 50);
+  border: 1px solid rgb(255, 50, 50);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#sec2 {
+  background-color: rgb(255, 255, 255);
+  margin-top: 150px;
+  height: 850px;
+}
+
+.gif {
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.3);
+}
+
+#sec2 div {
+  float: right;
+  width: 800px;
+  height: 100%;
+  margin-top: 100px;
+  margin-right: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#sec2 div p {
+  color: black;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#sec3 {
+  background-color: rgb(223, 223, 223);
+  padding: 10px;
+}
+
+.contact-container {
+  background-color: #ffffff;
+  max-width: 700px;
+  margin-top: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  justify-self: center;
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 50px;
+}
+
+.contact-container p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.contact-container strong {
+  color: #000;
+}
+
+.btn button {
+  background-color: black;
+  margin-left: 43%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.btn button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
